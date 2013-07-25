@@ -1,0 +1,23 @@
+body{
+	font-family: 'Armata', sans-serif;
+	font-size:11px;
+
+}
+h1{
+	color:orange; 
+	font-family: 'Armata', sans-serif;
+}
+
+p{
+	font-family: 'Armata', sans-serif;
+}
+
+.banner{
+	margin:auto 0px 0px;
+	display:block;
+	border-image-outset: 300
+
+
+}
+
+/*color:#e39921;*/
