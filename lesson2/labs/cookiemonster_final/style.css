@@ -1,0 +1,131 @@
+
+
+This repository
+Explore
+Gist
+Blog
+Help
+sandratenguan
+1  Watch
+Star 0Fork 16PUBLIC ykyuen/FEWD
+forked from tijptjik/FEWD
+ branch: gh-pages  FEWD / lesson2 / labs / cookieMonster / css / style.css 
+ ykyuen 10 days ago prepare lesson2 labs.
+2 contributors    
+ file 58 lines (43 sloc) 1.48 kb EditRawBlameHistory Delete
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig 
+Developed @ General Assembly in NYC
+
+*/
+
+/* General Styles */
+
+body {
+	color: white;	/* set the font color to white for all the content between the HTML <body></body> tags  */
+	font-size: 16px; /* specify the default font size for your site */
+
+	/* set up a background image */
+	background: url('../images/cookie-monster.jpg') no-repeat;
+
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	margin: 0px;
+	font-size: 80px;
+}
+
+h2 {
+	background: #35C0F2;
+	color: black;
+	padding: 5px;
+
+	-webkit-border-radius: 5px; /* Border-radius wiht the browser prefix (more advanced, good to include when using border-radius) */
+	border-radius: 5px; 
+}
+
+a {
+	color: #35C0F2;
+	text-decoration: none;
+}
+
+
+/* Layout */
+
+
+#container {
+	padding: 15px; /* add a bit of padding around all the content inside our container */
+	background: black; /* set the container's background to black */
+	width: 420px;
+
+	-webkit-border-bottom-right-radius: 25px; /* Border-radius wiht the browser prefix (more advanced, good to include when using border-radius) */
+	border-bottom-right-radius: 25px; 
+}

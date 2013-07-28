@@ -12,6 +12,15 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
+header{
+      background-image:url(./images/ecardly-background.jpg);
+}
+
+body {
+     background: url(../images/ecardly-background.jpg) repeat-x;
+     background-color: #d6d6d6;
+}
+
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -26,5 +35,58 @@ Developer @GA in NYC
 	clear: both;
 }
 
+img.logo{
+     margin:0px auto;
+     background-image: img src='ecardly-logo.png';
+     text-align: center;
 
+}
+
+
+#logo {
+  width: 216px;
+  height: 213px;
+  background: url(../images/ecardly-logo.png);
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:17px;
+  margin-bottom:40px;
+}
+
+h3.football
+  {
+  border: 30px;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background: url(../images/ecard-nycstartups.jpg);
+  width: 600px;
+  height: 400px;
+  padding-color:white solid;
+
+}
+.image{
+  background-color: white solid;
+  margin: auto;
+  width:400px;
+  
+}
+.span{
+  color: red;
+}
+.text{
+  page-break-after: .football;
+  width:50px;
+  padding-top: 20px;
+}
+h5{
+  font-family:Helvetica,sans-serif;
+}
+.box{
+  margin:auto;
+
+}
 

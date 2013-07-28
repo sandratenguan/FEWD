@@ -1,23 +1,112 @@
+
+
 body{
-	font-family: 'Armata', sans-serif;
-	font-size:11px;
+	font-family: Helvetica, sans-serif;
+	color:white;
+	font-size:16px;
+	background-color:#d6d6d6;
+	background-image:url(http://www.marisadeverdade.com.br/blog/wp-content/uploads/2012/10/marisa-monte-olimpiadas-bravo.jpg);
+	
+}
+
+h1{
+	color:; white; 
+	font-family: Helvetica, sans-serif;
+	font-size:66px;
+	margin: auto;
+	box-shadow: box-shadow: 1px 1px 20px #bbb;
+
+	outline: ##0000FF 0 0 20px;
 
 }
-h1{
-	color:orange; 
-	font-family: 'Armata', sans-serif;
+
+h4{
+	color:#F7E8FF;
+	font-size: 19px;
+	
+}
+.title{
+	border:25px;
+
+}
+
+.marisa{
+	width:400px;
+	margin-left: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background: white;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 40px #bbb;
 }
 
 p{
-	font-family: 'Armata', sans-serif;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	font-color: white;
+	outline: black 0 0 1px;
+	outline-color: black 0 0 1px;
+
+
+}
+.outline{
+	  color: white;
+	  text-shadow: black	0 0 1px;
+	}
 }
 
 .banner{
-	margin:auto 0px 0px;
-	display:block;
-	border-image-outset: 300
+	margin:auto;
+	text-align: center;
+	width:800px;
+}
+.about{
+	margin-left:auto;
+	margin-bottom: 40px;
 
 
 }
+.paragraph{
+	margin:auto;
+	text-align: justify;
 
+}
+
+.frame
+ {
+	padding: 100px;
+	background: white;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 40px #bbb;
+}
+
+
+footer {
+	padding: 20px;
+	text-align: right;
+	color: white;
+
+}
+#container{
+	margin-top: 40px;
+	margin-left: 40px;
+	
+}
+#containerbiography{
+	margin: auto;
+	margin-top: 40px;
+	margin-left: 30px;
+
+}
+
+}
+
+
+
+.socialmedia{
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+
+}
 /*color:#e39921;*/
