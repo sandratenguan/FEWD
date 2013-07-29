@@ -64,10 +64,13 @@ body {
 }
 
 header {
+     background-color:yellow;
 
 }
 
 footer {
+     background-color:yellow;
+     margin-top: 10px;
 
 }
 
@@ -75,6 +78,22 @@ footer {
 /* ADDITIONAL STYLES                   
 /*******************************************/
 
+#sidebar-left{
+     background-color: #48BF11;
+     width:320px;
+     height: 200px;
+}
+#content{
+     background-color: white;
+     width:320px;
+     height:200px;
 
+}
+
+#sidebar-right{
+     background-color: #BF113D;
+     width:320px;
+     height:200px;
+}
 
 
