@@ -70,6 +70,7 @@ header h1{
      font-size:48px;
      color:#FFFFFF;
      line-height:138px;
+     padding:10px;
 
 }
 
@@ -88,21 +89,21 @@ footer {
 #main{
      background-color: #CACECF;
      width:640px;
-     margin-bottom:10px;
      padding:10px;
-
-
 }
 
 #sidebar{
      background: #F5144C;
-     width:290px;
-    
+     width:280px;
+     padding:10px;
+}
 
+#container{
+     background-color: #2ecc71;
+     margin-bottom: 20px;
 }
 
 p{
      text-align: justify;
-     
-}
 
+}
