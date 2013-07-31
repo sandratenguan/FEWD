@@ -16,12 +16,10 @@ header{
       background-image:url(./images/ecardly-background.jpg);
 }
 
-body {
-     background: url(../images/ecardly-background.jpg) repeat-x;
-     background-color: #d6d6d6;
-}
+/*---------------------------------------------------------------------------------------------
+CLEAR FIX HACK
+---------------------------------------------------------------------------------------------*/
 
-/* Clear fix hack */
 .clearfix:after {
      content: ".";
      display: block;
@@ -35,58 +33,147 @@ body {
 	clear: both;
 }
 
-img.logo{
-     margin:0px auto;
-     background-image: img src='ecardly-logo.png';
-     text-align: center;
+.alignleft{
+  float:left;
 
 }
 
+.alignright{
+  float: right;
+  }
 
-#logo {
-  width: 216px;
-  height: 213px;
-  background: url(../images/ecardly-logo.png);
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top:17px;
-  margin-bottom:40px;
+.clear{
+  clear:both;
 }
+/*---------------------------------------------------------------------------------------------
+BASE STYLES
+---------------------------------------------------------------------------------------------*/
 
-h3.football
-  {
-  border: 30px;
-  font: 0/0 a;
-  text-shadow: none;
-  color: transparent;
-  background: url(../images/ecard-nycstartups.jpg);
-  width: 600px;
-  height: 400px;
-  padding-color:white solid;
+  span {
+    color:red;
+  }
 
-}
-.image{
-  background-color: white solid;
-  margin: auto;
-  width:400px;
-  
-}
-.span{
-  color: red;
-}
-.text{
-  page-break-after: .football;
-  width:50px;
-  padding-top: 20px;
-}
-h5{
-  font-family:Helvetica,sans-serif;
-}
-.box{
+  h5{
+    font-family:Helvetica,sans-serif;
+    color: #e74c3c;
+  }
+
+  p{
+    font-family:Helvetica,sans-serif;
+  }
+
+
+/*---------------------------------------------------------------------------------------------
+MAIN SECTIONS
+---------------------------------------------------------------------------------------------*/
+
+
+body {
+  background: url(../images/ecardly-background.jpg) repeat-x;
+  background-color: #d6d6d6;
+  font-family:Helvetica,Arial,sans-serif;
+  width:960px;
   margin:auto;
-
+  line-height: 1.4;
 }
 
+ /*---------header-------------*/
+
+  img.logo{ 
+    margin:0px auto;
+    background-image: img src='ecardly-logo.png';
+    text-align: center;
+  }
+
+  #logo {
+    width: 216px;
+    height: 213px;
+    background: url(../images/ecardly-logo.png);
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:17px;
+    margin-bottom:40px;
+  }
+
+  /*-------------------container-----------------------*/
+  
+  #container{
+    width: 960px;
+    margin:0px auto;
+  }
+
+    /*---------------main----------------------*/
+
+    #main{
+      background-color: #FFFFFF; 
+      padding:20px;
+      width: 640px;
+
+   
+  
+    
+    }
+    
+    h3.football{
+      text-shadow: none;
+      color: transparent;
+      background: url(../images/ecard-nycstartups.jpg);
+      width: 600px;
+      height: 400px;
+    }
+
+
+    /*-----------------sidebar-----------------*/
+
+    #sidebar{
+      background-color:#FFFFFF;
+      width: 290px;
+      padding: 30px;
+
+    }
+
+  
+    h3.courage{
+      text-shadow: none;
+      color: transparent;
+      background: url(../images/ecard-courage.jpg);
+      width: 600px;
+      height: 400px;
+    }
+
+    h3.cutpaste{
+      text-shadow:none;
+      color:transparent;
+      background: url(../images/ad-cut-and-paste.gif);
+      width:220px;
+      height:116px;
+    }
+    
+    h3.postcardtee{
+      text-shadow:none;
+      color:transparent;
+      background: url(../images/ad-postcard-tee.png);
+      width:220px;
+      height:116px;
+    }
+    h3.submit{
+      text-shadow:none;
+      color:transparent;
+      background: url(../images/ad-submit-your-own.png);
+      width: 220px;
+      height:75px;
+      }
+
+    
+    
+    /*-----------------footer-----------------*/
+   
+   
+   #footer{
+      margin: auto;
+      padding: 20px;
+      text-align: center;
+      
