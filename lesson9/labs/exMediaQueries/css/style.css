@@ -50,6 +50,15 @@ nav a:hover {
 	height:0;
 }
 
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+	body {
+		background-color: orange;
+	}
+}
+
+
+
 /* Tablet Layout: 768px.
  * Gutters: 24px.
  * Outer margins: 28px.

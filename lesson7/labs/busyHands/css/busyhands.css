@@ -1,3 +1,19 @@
+	/*
+Theme Name: Busy Square
+Author: Big Square
+Version: 0.00001
+
+[Table Of Contents] 
+
+	01- BODY
+	02- HEADERS 
+	03- GLOBAL STYLES 
+	04- MAIN CONTENT
+	05- SOCIAL MEDIA
+	06- FOOTER
+	07-MISC
+
+*/
 /*
 Theme Name: Busy Square
 Author: Big Square
@@ -10,7 +26,8 @@ Version: 0.00001
 	03- GLOBAL STYLES 
 	04- MAIN CONTENT
 	05- SOCIAL MEDIA
-	06- MISC
+	06- FOOTER
+	07- MISC
 
 */
 
@@ -18,58 +35,50 @@ Version: 0.00001
 /*----------------------------------------------------------------------------- 
 =01 BODY 
 -----------------------------------------------------------------------------*/
-
-body {
-	margin:0px;
-	padding: auto;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #7f7d78;
-	font-size: 13px;
-	line-height: 1.1;
-	background: #FFF;
-	/*width: 960px; Kit*/ 
-}
-
-#content{
-	width: 950px;
-	margin-right: auto;
-	margin-left:auto;
-	margin-bottom: 10px;
-	padding-top: 10px;
-
-}
-
-
-
-#container{
+body{
+	background: url(../images/bg_wrapper.png) repeat-x;
+	width: 960px;
 	margin: auto;
-	padding: 40px;
-	width: 950px;
+	background-color:#ecf0f1;
 }
+.maincontent{
+	background: url(../images/bg_blurb.jpg)repeat-x;
+	background-color: #EEE;
+}
+
+.photobanner{
+	width: 960px;
+	height: 370px;
+}
+
 /*----------------------------------------------------------------------------- 
 =02 HEADERS
 -----------------------------------------------------------------------------*/
+header{
+	height: 77px;
+	display: block;
+	padding-top: 20px;
+	}
 
-
-#header {
-	padding: 20px 0px;
+li {
+	list-style: none;
+	color: white;
+	font-family: Helvetica,Sans-serif;
 }
 
-	
-	#logo {
-		background: url(../images/logo.png) no-repeat;
-		width: 275px;
-		height: 76px;
-	}
-	
-	#logo h1 {
-		text-indent: -99999em;	/* hides the H1 tag from the page, while semantically keeping it present in your HTML */
-	}
+
 
 /*----------------------------------------------------------------------------- 
 =03 GLOBAL STYLES 
 -----------------------------------------------------------------------------*/
+h1{
+	background: url(../images/logo.png);
+	width: 291px;
+	height: 54px;
+	color:transparent;
+}
 
+/*
 h2 {
 	margin: 0px 0px 10px 0px;
 	font-size: 36px;
@@ -87,7 +96,7 @@ a {
 
 p { margin: 0px 0px 15px 0px; 
 	font-size: 12px;
-  	hyphens: none;
+  	hyphens: none;*/
 } /* there's no explicit rule, but putting about 15px margin only to the bottom of your p is generally a good rule of thumb */
 
 
@@ -97,28 +106,36 @@ p { margin: 0px 0px 15px 0px;
 
 nav {
 	width: 100%;
+	display: inline;
+	/*
 	border-top: dashed #999 1px;
-	border-bottom: dashed #999 1px;
+	border-bottom: dashed #999 1px; */
 	display: block;
 }
-
 
 	nav ul li {
 		float: left;
 		display: inline;
 		margin-right: 20px;
-		margin-top: 10px;	
+		margin-top: 0px;	
 		margin-bottom: 10px;
+		padding: 35px 10px;
 	}
-
 	
 	nav li a {
 		display: block;
-		width: 100px;
+		width: 75px;
 		padding: 10px 0px;
-		
+		text-align: center;
 	}
 
+	nav li:hover{
+		background: url(../images/bg_nav_rollover.png) repeat-x;
+	}
+	nav a {
+		text-decoration: none;
+		color: white;
+	}
 
 /*----------------------------------------------------------------------------- 
 =05 SOCIAL MEDIA  
@@ -128,6 +145,7 @@ nav {
 
 #socialMedia {
 	float: right;
+	margin-top: 500
 }
 
 #socialMedia ul li {
@@ -173,9 +191,18 @@ nav {
 
 
 
-
 /*----------------------------------------------------------------------------- 
-=06 MISC 
+=06 FOOTER
+-----------------------------------------------------------------------------*/
+
+.box-footer 
+     .blogroll
+ 
+ .box-footer 
+   
+   .textwidget 
+/*----------------------------------------------------------------------------- 
+=07 MISC 
 -----------------------------------------------------------------------------*/
 
 

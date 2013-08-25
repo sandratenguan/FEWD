@@ -1,0 +1,59 @@
+<!--
+Go to website and write the commands to your robot
+
+
+ROBOT: #
+
+ROBOT IS A COMPUTER
+
+ROBOT IS CONNECTED TO THE INTERNET
+
+ROBOT ACCESS GOOGLE CHROME BROWSER 
+
+
+<------------>
+
+[TYPE] ROBOT TYPE www.price.com.hk
+
+[SEARCH] (INPUT BOX) search for kindle
+
+[FILTER] sort by "price - Low start" (search results)
+
+
+[ANALISE] analise prices
+Look at first entry , note price
+Look at next entry, is price lower than previous price?
+If it is lower, remember the latest kindle with lowest price.
+Go to next entry, compare price.
+If there are no more entries, finish.
+
+
+
+[SELECT] The kindle that you last remember with lowest price. 
+
+__>
+
+Javascript - linear thinking
+
+
+linearly
+decisions
+storage 
+iterations
+
+
+DEVELOPER CONSOLE
+
+--debugging Javascript--
+
+console.log('hello')
+HELLO
+
+prompt("How old are you?")
+"18"
+
+
+
+
+
+

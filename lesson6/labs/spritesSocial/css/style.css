@@ -1,0 +1,48 @@
+
+body:{
+	width: 960px;
+	margin:960px;
+}
+
+li{
+	float:left;
+}
+
+li a{
+	display:block;
+	background-image: url(../images/socialNav.png);
+	width:60px;
+	height: 60px;
+	text-indent:-9999px;
+}
+
+.twitter a {background-position: -60px 0px;}
+.facebook a {background-position: 127px 0px;}
+.rss a {background-position: 74px 0px;}
+
+.linkedin a:hover{background-position: 0px -60px;}
+.twitter a:hover{background-position: -60px 63px ;}
+
+.facebook a:hover{background-position: -127px -60px;}
+.rss a:hover{background-position: 74px 64px;}
+
+li a{
+	transition:1s;
+	-webkit-transition:1s;
+}
+
+nav{
+	height: 200px;
+}
+h1{
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#socialmedia{
+	margin:auto;
+	width: 960px;
+	text-align: center;
+
+}
