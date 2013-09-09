@@ -1,0 +1,144 @@
+/*
+Theme Name: Portfolio Website
+Author: Sandra Tenguan
+Version: 0.00001
+
+[Table Of Contents] 
+
+	01- BODY
+	02- HEADERS 
+	03- GLOBAL STYLES 
+	04- MAIN CONTENT
+	05- SOCIAL MEDIA
+	06- FOOTER
+	
+*/
+
+/******************************************
+/* 03 - GLOBAL STYLES                  
+/*******************************************/
+
+/*FONTS*/
+p {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+	margin:0px auto;
+  font-size: 90px;
+  text-align: center;
+ 	color: #999;
+ 	font-family: 'Josefin Sans', sans-serif;
+  display: none;
+}
+
+h2 {
+	font-size: 16px;
+	color: #999;
+	font-family: 'Quattrocento', serif;
+}
+
+h3 {
+  font-size: 28px;
+  margin: 4px 0;
+  font-weight: normal;
+  padding: 0;
+  color: #999;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 2.8em;
+}
+
+h6{
+	color: #999;
+  	font-family: 'Josefin Sans', sans-serif;
+  	font-size:10px;
+  	opacity: 50%;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+/******************************************
+/* 01 - BODY                  
+/*******************************************/
+
+body{
+	text-align: center;
+}
+
+
+/******************************************
+/* 02 - HEADERS                  
+/*******************************************/
+
+nav ul li{
+  overflow: hidden; 
+  float: left; /* floast all of our LI elements left  */ 
+  margin-right: 20px; /* adds extra space to the right of each image */
+  display: block;
+  }
+
+#profile {
+    width: 216px;
+    height: 213px;
+    background: url(../images/profile-phot.png)no-repeat;
+    float: center;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+   }
+
+/******************************************
+/* 04 - MAIN CONTENT                  
+/*******************************************/
+
+/******************************************
+/* 05 - SOCIAL MEDIA                  
+/*******************************************/
+
+/******************************************
+/* 06 - FOOTER                 
+/*******************************************/
+
+footer{
+	text-align: center;
+}
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+/*QUICK COPY AND PASTE*/ 
+/**/ 
+
+

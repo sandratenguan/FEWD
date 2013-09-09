@@ -9,7 +9,12 @@
  * Create a 'for' loop that populates an array with the numbers 1 through 10 
  */
    var myArray = [];
-
+   //myArray = [1,2,3,4,5,6,7,8,9,10];
+   for (i = 10; i>=1; i--){
+   	console.log(i);
+   	myArray.push(i)
+   	myArray.reverse();
+   }
 
 
 /**
@@ -19,7 +24,11 @@
  */
 var sub = 100;
 var start = 1;
-
+while(start<=10){
+	sub = sub - start;
+	start++;
+	console.log(sub);
+}
 
 
 /**
@@ -28,9 +37,22 @@ var start = 1;
  * Store the largest number in a variable called "largest_num"
  */
 var someNums = [3, 1, 88, -1, 33, 96, 35, 12, 72];
-var largest_num = someNums[0];
+//var largest_num = someNums[0];
+for (i = 0;1<someNums.length;i++){
+	console.log('largest_num:'+ largest_num);
+	console.log('someNums[i]:'+ someNums[i]); 
+
+	if (largest_num < someNums [i]){
+		largest_num = someNums [i];
+		console.log('s');
+	}
+}
 
 
+function maxNumber(anArray){
+	var max = null;
+	
+}
 
 /**
  * Question 4
@@ -38,6 +60,15 @@ var largest_num = someNums[0];
  * Store that number in "small"
  */
 var small = someNums[0];
+for (i = 0; 1<someNums.length;i--){
+	console.log('largest_num'- largest_num);
+	console.log('someNums[i];'- someNums[i]);
+
+	if(largest_num > someNums [i]){
+		largest_num = someNums [i];
+		console.log('s');
+	}
+}
 
 /**
  * Question 5
@@ -47,7 +78,20 @@ var small = someNums[0];
  */
 var firstArray = ['peaches', 'apples', 'pears', 'oranges', 'plums', 'water melon', 'strawberries'];
 var secondArray = ['blueberries', 'water melon', 'tomatoes', 'apples', 'plums', 'oranges', 'cantaloupe'];
+var resultSet = [];
 var totalDuplicates = 0;
+
+for (i = 0; i < firstArray.length; i++){
+	console.log(firstArray[i]);
+
+	for(j = 0; j< secondArray.length; j++){
+		console.log(secondArray[j]);
+		if (firstArray[i]==secondArray[j]){
+			totalDuplicates++;
+			console.log(totalDuplicates);
+		}
+	}
+}
 
 
 /**
